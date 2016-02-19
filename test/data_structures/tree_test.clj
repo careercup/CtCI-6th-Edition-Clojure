@@ -42,6 +42,3 @@
     (is (= [1 3 2] (post-order-walk (tree-find tree 2))))
     (is (= [1 3 2 4] (post-order-walk (tree-find tree 4))))
     (is (= [1 3 2 4 5] (post-order-walk tree)))))
-
-
-(run-tests)

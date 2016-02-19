@@ -1,6 +1,7 @@
 (ns ^{:author "Leeor Engel"}
   data-structures.mutable-stack-test
   (:require [clojure.test :refer :all]
+            [data-structures.stack :refer :all]
             [data-structures.mutable-stack :refer :all]))
 
 (deftest stacks-test
@@ -46,5 +47,3 @@
         (stack-push stack 7)
         (is (= 7 (stack-pop stack)))
         (is (stack-empty? stack))))))
-
-(run-tests)

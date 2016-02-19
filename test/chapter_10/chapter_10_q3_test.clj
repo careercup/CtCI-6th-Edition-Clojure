@@ -12,7 +12,5 @@
   (is (= 4 (rotated-array-search [15 16 19 20 25 1 3 4 5 7 10 14] 25)))
   (is (nil? (rotated-array-search [15 16 19 20 25 1 3 4 5 7 10 14] 27))))
 
-(run-tests)
-
 
 

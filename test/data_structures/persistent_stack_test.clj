@@ -1,6 +1,7 @@
 (ns ^{:author "Leeor Engel"}
-  data-structures.stack-test
+  data-structures.persistent-stack-test
   (:require [clojure.test :refer :all]
+            [data-structures.stack :refer :all]
             [data-structures.persistent-stack :refer :all]))
 
 (deftest stacks-test
@@ -44,5 +45,3 @@
         (is (thrown? IllegalStateException (stack-pop emptied)))
         (is (= (create-stack (list 7)) (stack-push emptied 7)))
         (is (= 7 (stack-peek (stack-push emptied 7))))))))
-
-(run-tests)
