@@ -4,7 +4,7 @@
 
 First download and install [Leiningen](http://leiningen.org/) 
 
-Then run the following command from the Clojure directory to run all the tests:
+Then run the following command from the root directory to run all the tests:
 
     lein test
 
