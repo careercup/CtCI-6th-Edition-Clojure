@@ -1,7 +1,7 @@
 (ns ^{:author "Leeor Engel"}
-  chapter-3.chapter-3-q6
-  (import java.util.LinkedList
-          (java.util Date)))
+    chapter-3.chapter-3-q6
+  (:import java.util.LinkedList
+           (java.util Date)))
 
 (defrecord Animal [type name age])
 
